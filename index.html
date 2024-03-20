@@ -30,8 +30,8 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>WEB / APP Development</p>
-                <h1>Hi, I'm <span>Joel</span> <br> Akpan From Nigeria</h1>
+                <p>JOEDEN From Nigeria</p>
+                <h1>Hi, I'm Joel <br> I <span class="auto-type"></span></h1>
             </div>
         </div>
     </div>
@@ -257,6 +257,17 @@
                 .catch(error => console.error('Error!', error.message))
         })
     </script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+    var typed = new Typed(".auto-type", {
+        strings: ["Develop all kinds of website", "Create Android apps", "Design website", "Reskin android apps"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+    })
+</script>
 
 </body>
 
